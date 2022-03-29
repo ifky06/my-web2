@@ -1,0 +1,21 @@
+.jumbotron {
+  background: linear-gradient(rgba(4, 28, 50, 0.8), rgba(40, 104, 164, 0.8)), url("img/bg/jumbotronBG3.jpg");
+  background-size: cover;
+  background-position: center center;
+  padding-top: 2rem;
+  /* background-color: #e2edff; */
+  padding: 200px;
+}
+a {
+  text-decoration: none;
+}
+.jumbotron h1 {
+  font-size: 100px;
+}
+/* .fill {
+  height: 568px;
+} */
+/* section {
+  height: 100%;
+  width: 100%;
+} */
