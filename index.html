@@ -10,6 +10,7 @@
 
     <!-- my CSS -->
     <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="responsive.css" />
 
     <title>Trio Gibah</title>
   </head>
@@ -33,7 +34,7 @@
               <a class="nav-link" href="#Character">Member</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link">Branch</a>
+              <a class="nav-link">Jadwal</a>
             </li>
           </ul>
         </div>
@@ -48,7 +49,9 @@
         <div class="row">
           <div class="col">
             <h1 class="display-4 fw-bold">Trio Gibah</h1>
-            <p class="lead">Komunitas Entahlah</p>
+            <h3 class="mb-4">Komunitas Entahlah</h3>
+            <p class="fs-4 fst-italic">"Maou-sama Mengundang Anda"</p>
+            <a href="#about" class="btn btn-outline-light btn-lg">Click Here!!</a>
           </div>
         </div>
       </div>
@@ -56,37 +59,195 @@
     <!-- End Jumbotron -->
 
     <!-- About -->
-    <section id="about" class="p-5 mt-5 mb-5">
-      <div class="container">
+    <section id="about" class="p-5 text-white">
+      <div class="container mt-4 w-100 align-items-center justify-content-center">
         <div class="row text-center mb-5">
           <div class="col">
-            <h2>About</h2>
+            <h2 class="fw-bold">About</h2>
           </div>
         </div>
-        <div class="row justify-content-center fs-5">
-          <div class="col-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique id explicabo est iste molestias temporibus, facere fuga. Dolore, sapiente deleniti!</p>
-          </div>
-          <div class="col-4">
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Similique id explicabo est iste molestias temporibus, facere fuga. Dolore, sapiente deleniti!</p>
+        <div class="row justify-content-center fs-5 align-items-center">
+          <div class="col text-center">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quidem ut eos, consequatur officiis dolore assumenda tempora quibusdam? Facilis quae, explicabo nam assumenda quas obcaecati alias. Repellendus perferendis officia fuga
+              ratione numquam, rerum consectetur ut itaque.
+            </p>
           </div>
         </div>
       </div>
     </section>
     <!-- EndAbout -->
 
+    <!-- Member -->
+    <section id="member" class="p-5">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="fw-bold">Member</h2>
+          </div>
+        </div>
+        <div class="row p-5 justify-content-center align-items-center fw-bold">
+          <div class="col-md-4 text-center">
+            <img src="img/member/member.png" alt="" class="member-img" />
+          </div>
+          <div class="col-md-8">
+            <h3>Maou Sama</h3>
+            <p>Ntah kenapa mereka menyebut ku itu Kata mereka mulut ku susah di lawan kek depat pilpres</p>
+            <ul>
+              <li>Umur: 18</li>
+              <li>Asal: Bali</li>
+              <li>Kerjaan: Gambar & Desain</li>
+              <li>Instagram: @maskadek.art</li>
+            </ul>
+          </div>
+        </div>
+        <div class="row p-5 justify-content-center align-items-center fw-bold">
+          <div class="col-md-4 text-center" id="hidden22" hidden>
+            <img src="img/member/member2.jpg" alt="" class="member-img" />
+          </div>
+          <div class="col-md-8 text-right">
+            <h3>Rifki</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius placeat delectus adipisci sed consequuntur, id quidem nisi quia hic aut.</p>
+          </div>
+          <div class="col-md-4 text-center" id="hidden11">
+            <img src="img/member/member2.jpg" alt="" class="member-img" />
+          </div>
+        </div>
+        <div class="row p-5 justify-content-center align-items-center fw-bold">
+          <div class="col-md-4 text-center">
+            <img src="img/member/member1.jpg" alt="" class="member-img" />
+          </div>
+          <div class="col-md-8">
+            <h3>Neba</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius placeat delectus adipisci sed consequuntur, id quidem nisi quia hic aut.</p>
+          </div>
+        </div>
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="fw-bold">Member Serep</h2>
+          </div>
+        </div>
+        <div class="row p-5 justify-content-center align-items-center fw-bold">
+          <div class="col-md-4 text-center" id="hidden2" hidden>
+            <img src="img/member/member1.jpg" alt="" class="member-img" />
+          </div>
+          <div class="col-md-8 text-right">
+            <h3>Yuka</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius placeat delectus adipisci sed consequuntur, id quidem nisi quia hic aut.</p>
+          </div>
+          <div class="col-md-4 text-center" id="hidden1">
+            <img src="img/member/member1.jpg" alt="" class="member-img" />
+          </div>
+        </div>
+        <div class="row p-5 justify-content-center align-items-center fw-bold">
+          <div class="col-md-4 text-center">
+            <img src="img/member/member1.jpg" alt="" class="member-img" />
+          </div>
+          <div class="col-md-8">
+            <h3>Zimpens</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius placeat delectus adipisci sed consequuntur, id quidem nisi quia hic aut.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EndMember -->
+
+    <!-- Jadwal -->
+    <section class="p-5" id="jadwal">
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2>Jadwal</h2>
+          </div>
+        </div>
+        <div class="row p-5 justify-content-center align-items-center fw-bold">
+          <div class="col-md-4 text-center">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="svg">
+              <!--! Font Awesome Pro 6.1.1 by @fontawesome - https://fontawesome.com License - https://fontawesome.com/license (Commercial License) Copyright 2022 Fonticons, Inc. -->
+              <path
+                d="M96 32C96 14.33 110.3 0 128 0C145.7 0 160 14.33 160 32V64H288V32C288 14.33 302.3 0 320 0C337.7 0 352 14.33 352 32V64H400C426.5 64 448 85.49 448 112V160H0V112C0 85.49 21.49 64 48 64H96V32zM448 464C448 490.5 426.5 512 400 512H48C21.49 512 0 490.5 0 464V192H448V464z"
+              />
+            </svg>
+          </div>
+          <div class="col-md-8">
+            <h3>Dunno</h3>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eius placeat delectus adipisci sed consequuntur, id quidem nisi quia hic aut.</p>
+          </div>
+        </div>
+        <div class="row justify-content-center mt-3">
+          <div class="col-2 text-center">
+            <div class="card bg-secondary text-white pb-2 pt-2">
+              <h1 id="hari">00</h1>
+              <label for="">Hari</label>
+            </div>
+          </div>
+          <div class="col-2 text-center">
+            <div class="card bg-secondary text-white pb-2 pt-2">
+              <h1 id="jam">00</h1>
+              <label for="">Jam</label>
+            </div>
+          </div>
+          <div class="col-2 text-center">
+            <div class="card bg-secondary text-white pb-2 pt-2">
+              <h1 id="menit">00</h1>
+              <label for="">Menit</label>
+            </div>
+          </div>
+          <div class="col-2 text-center">
+            <div class="card bg-secondary text-white pb-2 pt-2">
+              <h1 id="detik">00</h1>
+              <label for="">Detik</label>
+            </div>
+          </div>
+        </div>
+        <div class="row text-center mt-3">
+          <div class="col">
+            <h3>Menuju Gibah</h3>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EndJadwal -->
+    <!-- Kejutan -->
+    <section>
+      <div class="container">
+        <div class="row text-center">
+          <div class="col">
+            <h2 class="fw-bold">For More Info</h2>
+            <button onclick="moreInfo()" class="btn btn-outline-light btn-lg">Click Here!!</button>
+          </div>
+        </div>
+        <div class="row justify-content-center" id="moreInfo" hidden>
+          <div class="col text-center">
+            <img src="img/misc/misc1.gif" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- EndKejutan -->
+
+    <footer class="py-3 my-4">
+      <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Home</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Features</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">Pricing</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">FAQs</a></li>
+        <li class="nav-item"><a href="#" class="nav-link px-2 text-muted">About</a></li>
+      </ul>
+      <p class="text-center text-muted">&copy; 2022 ifky06</p>
+    </footer>
+
     <!-- Optional JavaScript; choose one of the two! -->
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-    
+
     <!-- Option 2: Separate Popper and Bootstrap JS -->
     <!--
       <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
       <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
     -->
-    
+
     <!-- MyScript -->
     <script type="text/javascript" src="scripts.js"></script>
-    
   </body>
 </html>

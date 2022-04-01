@@ -1,16 +1,50 @@
+#about {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/bg/bodyBG.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 .jumbotron {
-  background: linear-gradient(rgba(4, 28, 50, 0.8), rgba(40, 104, 164, 0.8)), url("img/bg/jumbotronBG3.jpg");
+  background: linear-gradient(rgba(50, 32, 4, 0.8), rgba(162, 164, 40, 0.8)), url("img/bg/jumbotronBG4.jpg");
   background-size: cover;
   background-position: center center;
   padding-top: 2rem;
   /* background-color: #e2edff; */
   padding: 200px;
 }
+#member {
+  background: linear-gradient(rgba(207, 203, 160, 0.6), rgba(192, 168, 148, 0.6)), url("img/bg/memberBG2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
 a {
   text-decoration: none;
 }
 .jumbotron h1 {
   font-size: 100px;
+}
+#jadwal h1 {
+  font-size: 100px;
+}
+.member-img {
+  width: 200px;
+  transition: all 1s;
+}
+.member-img:hover {
+  width: 300px;
+}
+.text-right {
+  text-align: right;
+}
+
+nav {
+  transition: all 0.5s;
+}
+.svg {
+  width: 200px;
 }
 /* .fill {
   height: 568px;

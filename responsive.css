@@ -1,0 +1,39 @@
+/* X-Large devices (large desktops, less than 1400px) */
+@media (max-width: 1399.98px) {
+}
+
+/* Large devices (desktops, less than 1200px) */
+@media (max-width: 1199.98px) {
+}
+
+/* Medium devices (tablets, less than 992px) */
+@media (max-width: 991.98px) {
+  #jadwal h1 {
+    font-size: 25px;
+    font-weight: bold;
+  }
+  /* #jadwal label {
+    font-size: 1px;
+  } */
+}
+
+/* Small devices (landscape phones, less than 768px) */
+@media (max-width: 767.98px) {
+  #member h3,
+  #member p {
+    text-align: center;
+  }
+  .member-img {
+    width: 150px;
+  }
+  .member-img:hover {
+    width: 200px;
+  }
+  #jadwal h1 {
+    font-size: 15px;
+    font-weight: bold;
+  }
+  #jadwal label {
+    font-size: 10px;
+  }
+}
