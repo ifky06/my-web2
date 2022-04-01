@@ -8,11 +8,14 @@
 
 /* Medium devices (tablets, less than 992px) */
 @media (max-width: 991.98px) {
-  #jadwal h1 {
+  #schedule h1 {
     font-size: 25px;
     font-weight: bold;
   }
-  /* #jadwal label {
+  .svg {
+    width: 100px;
+  }
+  /* #schedule label {
     font-size: 1px;
   } */
 }
@@ -29,11 +32,20 @@
   .member-img:hover {
     width: 200px;
   }
-  #jadwal h1 {
+  #schedule h1 {
     font-size: 15px;
     font-weight: bold;
   }
-  #jadwal label {
+  #schedule label {
     font-size: 10px;
+  }
+  .text-right ul {
+    text-align: left;
+  }
+  #moreInfo img {
+    width: 250px;
+  }
+  .svg {
+    margin-bottom: 30px;
   }
 }

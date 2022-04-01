@@ -55,13 +55,13 @@ const sekarang = new Date();
 const perbedaan = sekarang.getTime() - awal.getTime();
 
 const hari = Math.round(perbedaan / 1000 / 60 / 60 / 24);
-console.log(hari);
+// console.log(hari);
 
 if (hari >= 0) {
   let tambah = awal.getTime() + (hari + 1) * 24 * 60 * 60 * 1000;
   awal = new Date(tambah);
 }
-console.log(awal.toDateString());
+// console.log(awal.toDateString());
 
 let $hari = document.getElementById("hari");
 let $jam = document.getElementById("jam");

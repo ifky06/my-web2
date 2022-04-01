@@ -1,5 +1,12 @@
 #about {
-  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/bg/bodyBG.jpg");
+  background: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url("img/bg/bodyBG2.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#schedule {
+  background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url("img/bg/scheduleBG.png");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -14,7 +21,14 @@
   padding: 200px;
 }
 #member {
-  background: linear-gradient(rgba(207, 203, 160, 0.6), rgba(192, 168, 148, 0.6)), url("img/bg/memberBG2.jpg");
+  background: linear-gradient(rgba(207, 203, 160, 0.6), rgba(192, 168, 148, 0.6)), url("img/bg/memberBG3.jpg");
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+#info {
+  background: linear-gradient(rgba(236, 232, 189, 0.7), rgba(230, 202, 180, 0.7)), url("img/bg/infoBG.jpg");
   background-size: cover;
   background-position: center center;
   background-repeat: no-repeat;
@@ -26,7 +40,7 @@ a {
 .jumbotron h1 {
   font-size: 100px;
 }
-#jadwal h1 {
+#schedule h1 {
   font-size: 100px;
 }
 .member-img {
@@ -45,6 +59,13 @@ nav {
 }
 .svg {
   width: 200px;
+  transform: rotate(-15deg);
+}
+#moreInfo img {
+  width: 400px;
+}
+.text-justify {
+  text-align: justify;
 }
 /* .fill {
   height: 568px;
