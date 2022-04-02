@@ -26,7 +26,7 @@ window.addEventListener("scroll", function () {
 //   elemen1.getAttribute('hidden');
 //   elemen.removeAttribute('hidden');
 // }
-var win = window.matchMedia("(min-width: 575.98px)");
+// var win = window.matchMedia("(min-width: 575.98px)");
 function ilang(x) {
   if (x.matches) {
     document.getElementById("hidden1").setAttribute("hidden", "");
