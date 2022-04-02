@@ -57,8 +57,11 @@ const perbedaan = sekarang.getTime() - awal.getTime();
 const hari = Math.round(perbedaan / 1000 / 60 / 60 / 24);
 // console.log(hari);
 
+let tambahHari = [0, 6, 5, 4, 3, 2, 1];
+
 if (hari >= 0) {
-  let tambah = awal.getTime() + (hari + 1) * 24 * 60 * 60 * 1000;
+  let sisaBagi = hari % 7;
+  let tambah = awal.getTime() + (hari + tambahHari[sisaBagi]) * 24 * 60 * 60 * 1000;
   awal = new Date(tambah);
 }
 // console.log(awal.toDateString());
@@ -86,7 +89,12 @@ function updateWaktu(remainingTime) {
 
   let seconds = Math.floor(remainingTime % 60);
 
-  $hari.innerHTML = formNumber(days);
+  if (days < 0) {
+    $hari.innerHTML = formNumber(days + 7);
+  } else {
+    $hari.innerHTML = formNumber(days);
+  }
+
   $jam.innerHTML = formNumber(hours);
   $menit.innerHTML = formNumber(minutes);
   $detik.innerHTML = formNumber(seconds);
