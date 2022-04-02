@@ -22,6 +22,12 @@
 
 /* Small devices (landscape phones, less than 768px) */
 @media (max-width: 767.98px) {
+  .jumbotron h1 {
+    font-size: 50px;
+  }
+  .jumbotron p {
+    font-size: 17px;
+  }
   #member h3,
   #member p {
     text-align: center;
@@ -39,6 +45,9 @@
   #schedule label {
     font-size: 10px;
   }
+  #schedule h3 {
+    font-size: 17px;
+  }
   .text-right ul {
     text-align: left;
   }
@@ -47,5 +56,8 @@
   }
   .svg {
     margin-bottom: 30px;
+  }
+  .text-justify {
+    text-align: center;
   }
 }

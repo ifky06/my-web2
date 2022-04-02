@@ -40,6 +40,9 @@ a {
 .jumbotron h1 {
   font-size: 100px;
 }
+.jumbotron p {
+  font-size: 25px;
+}
 #schedule h1 {
   font-size: 100px;
 }

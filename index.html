@@ -57,7 +57,7 @@
           <div class="col">
             <h1 class="display-4 fw-bold"><i class="fa-solid fa-comments"></i> Trio Gibah</h1>
             <h3 class="mb-4">Komunitas Entahlah</h3>
-            <p class="fs-4 fst-italic">"Maou-sama Mengundang Anda"</p>
+            <p class="fst-italic">"Maou-sama Mengundang Anda"</p>
             <a href="#about" class="btn btn-outline-light btn-lg">Click Here!!</a>
           </div>
         </div>
@@ -182,15 +182,15 @@
             <h2 class="fw-bold">Schedule</h2>
           </div>
         </div>
-        <div class="row p-5 justify-content-center align-items-center fw-bold mb-5">
+        <div class="row p-5 justify-content-center align-items-center fw-bold">
           <div class="col-md-4 text-center">
-            <i class="fa-solid fa-calendar fa-8x svg"></i>
+            <i class="fa-regular fa-calendar fa-8x svg"></i>
           </div>
           <div class="col-md-8 text-justify">
             <p>Prosesi kegiatan gibah selalu dilakukan pada hari sabtu pukul 19:00 WIB / 20:00 WITA atau biasa disebut orang orang single adalah malam yang paling menyakitkan yaitu malam minggu</p>
           </div>
         </div>
-        <div class="row text-center mt-5 mb-3">
+        <div class="row text-center my-3">
           <div class="col">
             <h3>Hitung Mundur</h3>
           </div>
@@ -221,7 +221,7 @@
             </div>
           </div>
         </div>
-        <div class="row text-center mt-4">
+        <div class="row text-center my-4">
           <div class="col">
             <h3>Menuju Gibah</h3>
           </div>
@@ -235,7 +235,7 @@
         <div class="row text-center">
           <div class="col">
             <h2 class="fw-bold mb-4">For More Info</h2>
-            <i class="fa-solid fa-arrow-right fa-2xl"></i><button onclick="moreInfo()" class="btn btn-outline-dark btn-lg ms-3 me-3">Click Here!!</button><i class="fa-solid fa-arrow-left fa-2xl"></i>
+            <i class="fa-solid fa-arrow-right fa-2xl info-left"></i><a onclick="moreInfo()" class="btn btn-outline-dark btn-lg ms-3 me-3">Click Here!!</a><i class="fa-solid fa-arrow-left fa-2xl info-right"></i>
           </div>
         </div>
         <div class="row justify-content-center align-items-center mt-5" id="moreInfo" hidden>
@@ -284,6 +284,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.10.2/gsap.min.js"></script>
     <script>
       gsap.from(".svg", { duration: 1, rotate: 15, opacity: 100, repeat: -1, yoyoEase: true });
+      gsap.from(".info-left", { duration: 0.5, x: -15, opacity: 100, repeat: -1, yoyoEase: true });
+      gsap.from(".info-right", { duration: 0.5, x: 15, opacity: 100, repeat: -1, yoyoEase: true });
     </script>
 
     <!-- MyScript -->
